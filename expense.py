@@ -40,6 +40,7 @@ def new_expense(*args):
     ]
     infos = prompt(expense_questions)
     while (True):
+        #Doing the add for the splitted bill
         answer = input("Did you split the amount of the bill? yes/no: ") 
         if answer == "yes":
             users = [{
